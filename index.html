@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="image">
+        <img alt="" src="image.jpg" />
+      </div>
+      <div class="content">
+        <div class="form">
+          <h2>Login</h2>
+          <form action="#" method="post" id="loginForm">
+            <div class="input">
+              <span>Username</span>
+              <input type="text" id="name" autofocus />
+              <input type="text" style="display: none" />
+            </div>
+            <div class="input">
+              <span>Password</span>
+              <input type="password" id="pw" />
+            </div>
+            <div class="remember"><input type="checkbox" /> Remember me</div>
+            <div class="input">
+              <input type="button" value="Sign in" onclick="check();" />
+            </div>
+            <div class="input">
+              <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
